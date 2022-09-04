@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../../Images/logo.png";
 
 const Navbar = () => {
   const Tabs = [
@@ -17,11 +18,7 @@ const Navbar = () => {
       <div className="w-1/4">
         <div className="w-48">
           <Link to="/" className="outline-none">
-            <img
-              src="https://raw.githubusercontent.com/Vineeth543/Project-Images/main/logo.png"
-              alt="logo"
-              className="w-full"
-            />
+            <img src={logo} alt="logo" className="w-full" />
           </Link>
         </div>
       </div>

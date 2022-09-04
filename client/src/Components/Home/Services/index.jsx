@@ -55,6 +55,7 @@ const ServicesCards = () => {
                   index % 2 ? "bg-red-500 text-white" : "bg-white"
                 }`}
                 style={{ borderRadius: "60px 0px" }}
+                key={index}
               >
                 <div className="w-20 h-12">
                   <img
