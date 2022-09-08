@@ -5,6 +5,8 @@ import ServicesCards from "../../Components/Home/Services";
 import AboutUs from "../../Components/Home/About";
 import Experience from "../../Components/Home/Experience";
 import Testimonials from "../../Components/Home/Testimonials";
+import Blog from "../../Components/Home/Blog";
+import Connect from "../../Components/Home/Connect";
 
 const HomeLayout = () => {
   return (
@@ -15,6 +17,8 @@ const HomeLayout = () => {
       <AboutUs />
       <Experience />
       <Testimonials />
+      <Blog />
+      <Connect />
     </div>
   );
 };
